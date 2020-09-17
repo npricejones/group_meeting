@@ -1,0 +1,19 @@
+# This file should contain all scheduling constraints applicable to group 
+# meeting assignments Use # to precede additional comments as needed.
+# Fields are as follows:
+# START:  start date of meetings in YYYY-MM-DD
+# END:    end date of meetings in YYYY-MM-DD
+# WEEK:   day of the week on which meetings occur, with Thursday, thursday
+#         Thu, thu, and 4 all equivalent
+# FORBID: any dates that group meeting is not to be held in YYYY-MM-DD, 
+#         comma separate for multiple values; use brackets to contain
+#         a range between which group meeting is not held
+# PEOPLE: a comma-separated list of file names (.txt extension assumed),
+#         one for each person in the group 
+
+
+START=
+END=
+WEEK=
+FORBID=
+PEOPLE=

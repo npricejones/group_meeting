@@ -1,0 +1,5 @@
+# Ignore cache
+__pycache__/
+
+# Ignore any user-generated schedule files
+schedule*.txt

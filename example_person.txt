@@ -1,0 +1,28 @@
+# This file should contain all scheduling constraints for a specific person.
+# Use # to precede additional comments as needed.
+# Fields are as follows:
+# NAME:   name as it is to appear in the schedule
+# START:  date this person can first participate in YYYY-MM-DD
+#		  if left blank, assumed to be start date in overall 
+#		  constraint file
+# END:    date this person can no longer participate in YYYY-MM-DD
+#		  if left blank, assumed to be start date in overall 
+#		  constraint file
+# NOTES:  boolean variable to establish whether this person is available 
+#		  to take notes (defaults to True if blank)
+# TALK:   boolean variable to establish whether this person is available 
+#         to take notes (defaults to True if blank)
+# FORBID: any dates this person is unable to participate in YYYY-MM-DD, 
+#         comma separate for multiple values; use brackets to contain
+#         a range between which this person is unavailable, with an underscore
+#         to separate bounding dates e.g. (YYYY-MM-DD_YYYY-MM_DD)
+# FORCE:  any dates this person must participate in YYYY-MM-DD, comma 
+#         separate for multiple values
+
+NAME=
+START=
+END=
+NOTES=
+TALK=
+FORBID= 
+FORCE= 
